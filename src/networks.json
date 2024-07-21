@@ -1,4 +1,24 @@
 {
+  "7171": {
+    "name": "Bitrock",
+    "rpc": "https://connect.bit-rock.io",
+    "chainId": 7171,
+    "explorer": "https://explorer.bit-rock.io",
+    "color": "#627EEA",
+    "multicall": "0xFfdE59FCbe1AE8B2a5015C24d954a3C1bD14DFA4",
+    "ENSRegistry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "Bitrock",
+      "symbol": "BROCK"
+    },
+    "wrappedToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "name": "Pop Bitrock",
+      "symbol": "pBROCK"
+    }
+  },
+{
   "1": {
     "name": "Ethereum",
     "rpc": "https://rpc.ankr.com/eth",
