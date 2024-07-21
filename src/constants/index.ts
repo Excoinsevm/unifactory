@@ -5,6 +5,7 @@ import networks from 'networks.json'
 
 export type NetworksId = keyof typeof networks
 
+export const BROCK_ID = 7171
 export const BSC_ID = 56
 export const BSC_TESTNET_ID = 97
 export const OPBNB_TESTNET_ID = 5611
@@ -14,7 +15,7 @@ export const AVALANCHE_TESTNET_ID = 43113
 export const POLIGON_ZKEVM_TESTNET_ID = 1442
 export const GOERLI_ID = 5
 
-export const STORAGE_NETWORK_ID = process.env.NODE_ENV === 'production' ? BSC_ID : GOERLI_ID
+export const STORAGE_NETWORK_ID = process.env.NODE_ENV === 'production' ? BROCK_ID : GOERLI_ID
 export const STORAGE_NETWORK_NAME = networks[STORAGE_NETWORK_ID.toString() as NetworksId].name
 // @ts-ignore
 export const STORAGE = networks[STORAGE_NETWORK_ID.toString() as NetworksId].storage
